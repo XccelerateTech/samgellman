@@ -1,0 +1,25 @@
+/* general */
+
+body {
+    font-family: "Open Sans", serif; 
+    text-transform: uppercase;
+    
+    text-align: center;
+    position: relative;
+}
+
+#main-section {
+    height: 100vh;
+}
+
+#top-third {
+    height: 30%;
+}
+
+#middle-third {
+    height: 40vh;
+}
+
+#bottom-third {
+    height: 30vh;
+}

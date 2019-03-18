@@ -1,0 +1,46 @@
+#logo {
+    background-image: url(images/logo.png);
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 100vw; 
+}
+
+.list-class {
+    padding-top: 10px;
+    background-color: white; 
+    width: 60vh;
+}
+
+.buttons {
+    padding-top: 10px;
+    background-color: white; 
+    height: 50px;
+    width: 60vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button-border {
+    outline-width: 10;
+    outline-color: black;
+}
+
+.button-blue {
+    background-color: blue;
+}
+
+.button-aqua {
+    background-color: aqua;
+}
+
+.button-orange {
+    background-color: orange
+}
+
+.button-red {
+    background-color: red;
+}
+
+.white-text {
+    color: white;
+}

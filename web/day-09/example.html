@@ -1,0 +1,27 @@
+
+<html>
+    <head>
+        <title>Our JQuery Experiment</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+            crossorigin="anonymous">
+    </head>
+    <body>
+            <form id="form-event-form">
+                    <input type='text' name="name" placeholder="Name"/>
+                    <input type='text' name="email" placeholder="Email"/>
+                    <input type='submit' class="btn btn-primary"/>
+                </form>
+                <script type='text/javascript'>
+                    $('#form-event-form').submit(function(event){
+                        event.preventDefault(); // VERY IMPORTANT. To stop the form from submitting
+                        var name = event.target.name.value;
+                        var email = event.target.email.value;
+                        alert("Form submitted name:"+name+", email:"+email);
+                    });
+                </script>
+            </body>
+            </html>

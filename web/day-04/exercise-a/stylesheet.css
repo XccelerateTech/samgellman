@@ -1,0 +1,381 @@
+.navbar {
+    background-color: rgba(240, 240, 240, 0.2);
+} 
+
+.navbar-nav {
+    font-family: "Open Sans", serif; 
+    text-transform: uppercase;
+    color: rgb(252, 252, 252);
+   
+}
+
+
+.navbar-brandAcrive {
+    color: 
+}
+
+/* Section formatting */ 
+
+.flex-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-text-and-pad-50 {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* Each of the five sections: include background, size, and padding */
+
+#first-section {
+    background: url("images/header.jpg") no-repeat center center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#second-section {
+    background-color: #f05f40 !important;
+    height: 480px;
+}
+
+#third-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: white;
+}
+
+#third-section-t2 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#fourth-section {
+    padding-top: 0px;
+    padding-bottom: 100px;
+    background-color: #222;
+}
+
+#fifth-section {
+    background-color: white !important;
+    height: 500px;
+}
+
+
+/* Text Types */
+
+.text-paragraph {
+    font-size: 12pt;
+    max-width: 800px;
+}
+
+.medium-headline {
+    font-family: 'Open Sans', serif; 
+    font-size: 24pt;
+    max-width: 800px;
+}
+
+.text-center-4 {
+    padding-top: 60px;
+    position: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.top-icon-text {
+    font-family: 'Open Sans', serif;  
+    font-size: 24px;
+    color: rgb(0,0,0,.8);
+    text-align: center;
+}
+
+.bottom-icon-text {
+    padding-top: 10px;
+    font-family: 'Merriweather', serif;  
+    font-size: 15px;
+    color: gray; !important;
+    text-align: center; 
+}
+
+/* HR classes */
+
+.small-hr {
+    border-width: 3px;
+    max-width: 50px;
+}
+
+.orange-line { 
+    border-color: #f05f40;
+}
+
+.white-line { 
+    border-color: rgba(252,252,252,.8);
+}
+
+/* Buttons */
+
+.button-rounded {
+    border-radius: 30px;
+    border-width: 0;
+    height: 50px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', serif;  
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.orange-colored {
+    background-color: #f05f40;
+    color: white; 
+}
+
+.white-colored {
+    background-color: rgba(252,252,252,0.8);
+    color: rgba(0,0,0,.8);
+}
+
+/* Icon Section */
+
+.icon-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+.orange-icon {
+    color:  #f05f40;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.black-icon {
+    color:  black;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+/* Photo Section */
+
+.rollover-photo {
+    margin-left: -15px;
+    margin-right: -15px;
+ }
+
+ .rollover-photo:hover .hovered-image {
+    opacity: 1;
+ }
+
+ .hovered-image {
+    background-color: rgba(240,95,64,.9);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+ }
+
+ .text-box {
+    position: absolute; 
+    top: 50%;
+    width: 100%; 
+ }
+
+ .text-box-top {
+    position: absolute;
+    color: rgba(255,255,255,.7);
+    font-family: 'Open Sans', serif; 
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: -30px;
+    width: 100%;
+    text-align: center;
+ }
+
+ .text-box-bottom {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', serif; 
+    font-size: 25px;
+    margin-top: 0px;
+ }
+
+
+/* Contact Me Section */
+
+.space-around {
+    justify-content: space-around;
+}
+
+/* Add-ons */
+
+.top-padding-60 {
+    padding-top: 60px;
+}
+
+
+
+/* Text Simple Characteristics */
+
+.text-white {
+    color: rgb(252, 252, 252) !important;
+}
+.text-offwhite {
+    color: rgba(255,255,255,.7);
+}
+
+.text-black {
+    color: rgba(0,0,0);
+}
+
+.text-toupper {
+    text-transform: uppercase;
+}
+
+.text-bold {
+    font-weight: bold !important;
+}
+
+.text-bolder {
+    font-weight: bolder !important;
+}
+
+.text-large {
+    font-size: 35pt;
+}
+
+.text-medium {
+    font-size: 24pt;
+}
+
+.text-small {
+    font-size: 18pt;
+}
+
+.text-headline {
+    max-width: 800px;
+}
+
+.text-merriweather {
+    font-family:  'Merriweather', serif;
+}
+
+.text-open-sans {
+    font-family: 'Open Sans', serif; 
+}
+
+
+ /*
+.section-five-text {
+    color: rgb(0, 0, 0) !important;
+    font-size: 18pt;
+    font-family: 'Open Sans', serif; 
+    font-weight: bold !important;
+    max-width: 800px;
+}
+
+
+.white-mid-text {
+    color: white;
+    font-size: 18pt;
+    font-family: 'Open Sans', serif; 
+    font-weight: bold !important;
+}
+
+
+
+
+
+
+
+#icon-pairs-row-defunct {
+    position: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.icon-pairs {
+
+}
+
+
+
+
+
+
+
+
+
+.hey-look {
+
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.icons {
+    background-color:rgb(255, 255, 255);
+}
+
+
+
+
+
+
+.rollover-photo {
+   margin-left: -15px;
+   margin-right: -15px;
+}
+
+.big-white {
+    color: white;
+}
+
+
+
+.bottom-propsss {
+    position: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.second-section {
+    background-color:  #f05f40 !important;
+    height: 50vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+    outline: 0;
+}
+
+.small-gap {
+    padding: 10px;
+}
+
+@media(min-width:400px) {
+    .icons{
+        padding: 50px;
+    }
+}
+
+.fourth-section {
+    width: 100vh;
+}
+

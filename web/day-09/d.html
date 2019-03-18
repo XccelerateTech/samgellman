@@ -1,0 +1,14 @@
+<form id="form-event-form">
+        <input type='text' name="name" placeholder="Name"/>
+        <input type='text' name="email" placeholder="Email"/>
+        <input type='submit' class="btn btn-primary"/>
+    </form>
+    <script type='text/javascript'>
+        $('#form-event-form').submit(function(event){
+            event.preventDefault(); // VERY IMPORTANT. To stop the form from submitting
+            var name = event.target.name.value;
+            var email = event.target.email.value;
+            alert("Form submitted name:"+name+", email:"+email);
+        });
+    </script>
+    
